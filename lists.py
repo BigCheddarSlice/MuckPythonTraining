@@ -81,4 +81,23 @@ print("newlist: " + str(newlist))
 """
 List Sorting
 """
+# alphanumerically
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+theseNums = [3, 6 ,11, 7, 314,5 ,123]
+thislist.sort()
+theseNums.sort()
+print(thislist)
+print(theseNums)
 
+# copy lists
+
+list1 = [1, 2, 3]
+#list2 = list1
+list2 = list1.copy()
+print("before:")
+print(list1)
+print(list2)
+list1.sort(reverse = True)
+print("after:")
+print(list1)
+print(list2)
