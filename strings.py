@@ -51,5 +51,16 @@ if "with" in fixMe:
     fixMe = fixMe.replace("with","without") # replace a string with a string
     print(fixMe.strip())
 
+# A quick format example
 
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
 
+# a more complicated example
+
+quantity = 3
+itemno = 567
+price = 49.95
+myorder = "I want to pay {2} dollars for {0} pieces of item {1}." # use indexes to place as required, or leave blank to go sequentially
+print(myorder.format(quantity, itemno, price))
