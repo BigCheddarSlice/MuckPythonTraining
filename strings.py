@@ -32,3 +32,24 @@ print("beginning to some number: " + _str[:7])
 
 print("some nubmer to the end: " + _str[55:])
 
+""" 
+Let's do some modification!
+"""
+
+upper = _str.upper() # make a string all uppercase
+
+print("upper is: " + upper)
+
+lower = _str.lower() # make a string lowercase
+
+print("lower is: " + lower)
+
+fixMe = "       here is a string with whitespace                "
+
+print(fixMe)
+if "with" in fixMe:
+    fixMe = fixMe.replace("with","without") # replace a string with a string
+    print(fixMe.strip())
+
+
+
